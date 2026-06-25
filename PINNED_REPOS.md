@@ -75,10 +75,12 @@ venv/
 .ipynb_checkpoints/
 ```
 
-## Profile Setup Steps
+## Private-First Profile Setup Steps
 
 1. Create a GitHub repository with the exact same name as your GitHub username.
 2. Add the `README.md` from this folder to that repository.
 3. Replace `YOUR_GITHUB_USERNAME` in all project links.
 4. Create the six public-facing repositories above, starting with `nii-to-stl-aorta-pipeline`.
 5. Pin the six repositories from your GitHub profile settings.
+
+If you are not ready for the profile to be public, create the username-matching repository as **Private** first. GitHub will not display a private profile README publicly, but this gives you a clean staging area. Later, when you are ready, change the repository visibility to **Public** and the README can appear on your profile.
