@@ -1,121 +1,116 @@
-# Hi, I'm Farshad
+<img src="assets/profile.jpg" width="160" align="right" alt="Farshad Tajeddini">
 
-I'm a machine learning and AI engineer with a Ph.D. in Mechanical Engineering from the University of Toronto, working at the intersection of medical imaging, deep learning, scientific computing, and cardiovascular digital twins.
+# Farshad Tajeddini
 
-My work focuses on building reliable computational pipelines that turn CT, MRI, 4D MRI, and biomechanical data into clinically meaningful outputs: segmentations, 3D geometries, patient-specific simulations, risk models, and deployable AI prototypes.
+**Biomedical Data Scientist · Medical Imaging · Machine Learning · Computational Modeling**
 
----
+PhD in Mechanical Engineering, University of Toronto &nbsp;|&nbsp; Toronto, Canada
 
-## Core Expertise
+[LinkedIn](https://linkedin.com/in/farshad-tajeddini-1766b6148) &nbsp;·&nbsp; [Google Scholar](https://scholar.google.com/citations?user=jwl81sUAAAAJ&hl=en)
 
-- Medical image segmentation and 3D reconstruction from CT, MRI, 4D MRI, DICOM, NIfTI, and STL data
-- Deep learning for medical imaging, including CNNs, U-Net, MedSAM, ResNet, autoencoders, and anomaly detection
-- Classical machine learning for small clinical datasets: SVM, random forests, gradient boosting, PCA, PLS-DA, and regression
-- Leakage-aware model validation with LOOCV, stratified cross-validation, sensitivity, specificity, AUC, and calibration analysis
-- Physics-informed neural networks for scientific computing and 4D MRI flow super-resolution
-- Cardiovascular digital twins combining medical imaging, geometry processing, CFD, and ML-based risk prediction
-- Scientific computing and automation in Python, MATLAB, ANSYS Fluent, COMSOL, and SolidWorks
+<br clear="right">
 
 ---
 
-## Medical Imaging, Geometry, and 3D Reconstruction
+## About
 
-[NIfTI-to-STL Aorta Pipeline](https://github.com/farshadtajeddini/nii-to-stl-aorta-pipeline)  
-Convert segmented NIfTI label maps into clean STL surface meshes using marching cubes, affine world-coordinate mapping, largest-component filtering, and optional Taubin smoothing.
+Biomedical data scientist and engineer with a PhD in Mechanical Engineering from the University of Toronto and research experience at University Health Network and the Vector Institute for Artificial Intelligence. My work connects medical imaging, machine learning, and physics-based simulation — translating patient-specific imaging data into clinically actionable models and tools.
 
-[Aortic Geometry Processing Toolkit](https://github.com/farshadtajeddini/aortic-geometry-processing-toolkit)  
-Tools for patient-specific aortic geometry preparation, including centerline extraction, cut-plane metadata, diameter and area profiles, and CFD-ready surface outputs.
-
-[DICOM and MRI Orientation Utilities](https://github.com/farshadtajeddini/dicom-mri-orientation-tools)  
-Utilities for handling medical-image orientation, spatial metadata, landmark placement, and reproducible export of geometry-processing results.
+I develop and validate AI and ML systems for clinical decision support, design processing pipelines for MRI and CT data, and build computational models of cardiovascular physiology. I prioritize methodological rigor: proper cross-validation, calibration, leakage prevention, and reproducibility from imaging acquisition through to clinical output.
 
 ---
 
-## Machine Learning and Clinical Risk Modeling
+## Research and Technical Expertise
 
-[Cardiovascular Risk Stratification ML](https://github.com/farshadtajeddini/cardiovascular-risk-stratification-ml)  
-End-to-end ML workflow for cardiovascular risk stratification using biomechanical and imaging-derived features, PLS-DA dimensionality reduction, SVM classification, and leakage-aware validation.
+**Medical Imaging and Computer Vision**
+Segmentation and 3D reconstruction from MRI, CT, and 4D MRI; phase-contrast MRI; image registration; DICOM and NIfTI processing pipelines; intravascular ultrasound; radiomics; MRI acquisition protocol design and multicenter imaging standardization.
 
-[Small-Sample Clinical ML Validation](https://github.com/farshadtajeddini/small-sample-clinical-ml-validation)  
-Reusable validation patterns for clinical ML studies with limited sample sizes, including LOOCV, stratified folds, model-selection controls, and performance reporting.
+**Machine Learning and Clinical AI**
+Supervised and unsupervised learning for high-dimensional, small-sample clinical datasets; CNNs, U-Net, MedSAM, ResNet; SVM, random forests, gradient boosting, PLS-DA; leakage-aware validation (LOOCV, stratified cross-validation, calibration curves); clinical performance metrics (AUC, sensitivity, specificity).
 
-[MRI-Based Biomechanical Phenotype Prediction](https://github.com/farshadtajeddini/mri-biomechanics-risk-modeling)  
-Regression and classification experiments connecting MRI-derived variables with biomechanical phenotypes for non-invasive cardiovascular risk prediction.
+**Physics-Based Simulation and Digital Twins**
+Patient-specific cardiovascular CFD in ANSYS Fluent and COMSOL; finite-volume methods; fluid-structure interaction; pulse-wave propagation; 4D MRI-informed hemodynamic boundary conditions; physics-informed neural networks for flow reconstruction; reduced-order modeling.
 
----
-
-## Deep Learning and Scientific ML
-
-[PINNs for 4D MRI Flow Super-Resolution](https://github.com/farshadtajeddini/4d-mri-pinn-super-resolution)  
-Physics-informed neural network experiments for enhancing spatial and temporal resolution in 4D MRI cardiac flow data using physics constraints and deep learning.
-
-[Medical Image Segmentation Experiments](https://github.com/farshadtajeddini/medical-image-segmentation-experiments)  
-CT and MRI segmentation experiments using U-Net, CNNs, MedSAM-style workflows, and PyTorch-based model training pipelines.
-
-[Digital Twin Synthetic Data Generation](https://github.com/farshadtajeddini/cardiovascular-digital-twin-synthetic-data)  
-Simulation-driven synthetic dataset generation for training and testing ML models when real patient data are scarce.
+**Scientific Computing and Research Translation**
+Python and MATLAB scientific pipelines; numerical methods; MRI acquisition protocol optimization; multicenter imaging standardization; clinical trial support; FDA pre-submission preparation.
 
 ---
 
-## Applied Data Science Projects
+## Projects
 
-[Salary Bracket Prediction](https://github.com/farshadtajeddini/salary-bracket-prediction)  
-Multi-class ordinal classification on developer survey data using feature engineering, SVM, random forest, gradient boosting, grid search, and cross-validation.
+Most research repositories are currently private due to patient data constraints. The projects below are either publicly available or in preparation for release with synthetic or anonymized demonstration data.
 
-[Geopolitical Sentiment Analysis](https://github.com/farshadtajeddini/geopolitical-sentiment-analysis)  
-NLP pipeline for media sentiment classification, including data cleaning, tokenization, feature extraction, and multi-class classification.
+### Available
 
-[Data Science Curriculum Mining](https://github.com/farshadtajeddini/data-science-curriculum-mining)  
-Web scraping and clustering workflow for mapping job-market skill demand to Master's-level Data Science and AI course modules.
+**[aortico-landing-page](https://github.com/farshadtajeddini/aortico-landing-page)**
+Standalone landing page for the Aortico cardiovascular AI platform.
+`HTML` `CSS`
 
----
+### In Preparation
 
-## Languages and Tools
-
-**Programming**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-
-**ML and Data**  
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
-
-**Imaging, Geometry, and Scientific Computing**  
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![SolidWorks](https://img.shields.io/badge/SolidWorks-DA291C?style=for-the-badge&logo=dassaultsystemes&logoColor=white)
-![ANSYS](https://img.shields.io/badge/ANSYS-FFB71B?style=for-the-badge&logo=ansys&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+| Repository | Description |
+|---|---|
+| `nii-to-stl-aorta-pipeline` | NIfTI label map to STL mesh conversion for cardiovascular geometry |
+| `aortic-geometry-processing-toolkit` | Cut planes, centerlines, diameter profiles, and CFD-ready surface preparation |
+| `cardiovascular-risk-stratification-ml` | PLS-DA, SVM, and cross-validation pipeline for clinical risk classification |
+| `4d-mri-pinn-super-resolution` | Physics-informed neural network for 4D MRI flow reconstruction |
+| `medical-image-segmentation-experiments` | PyTorch segmentation workflows: U-Net, CNN, and MedSAM-style experiments |
+| `small-sample-clinical-ml-validation` | Utilities for LOOCV, nested CV, calibration, and clinical performance metrics |
 
 ---
 
-## Current Focus
+## Selected Publications
 
-- AI-driven cardiovascular diagnosis and risk prediction
-- Patient-specific digital twins that connect imaging, CFD, and machine learning
-- Medical-imaging pipelines for segmentation, geometry reconstruction, and deployable clinical prototypes
-- Physics-informed neural networks for scientific computing and 4D MRI enhancement
-- Translating research models into reproducible, well-documented engineering tools
+7 peer-reviewed journal publications &nbsp;·&nbsp; h-index 7 &nbsp;·&nbsp; 305+ citations &nbsp;·&nbsp; [Full list on Google Scholar](https://scholar.google.com/citations?user=jwl81sUAAAAJ&hl=en)
+
+**Workflow comparison for combined 4D MRI/CFD patient-specific cardiovascular flow simulations of the thoracic aorta**
+Tajeddini F, Romero DA, McClarty D, Chung J, Amon CH &nbsp;·&nbsp; *Journal of Fluids Engineering*, 2023
+
+**Type B aortic dissection in Marfan patients after the David procedure: insights from patient-specific simulation**
+Tajeddini F, Romero DA, Huang YX, David TE, Ouzounian M, Amon CH, et al. &nbsp;·&nbsp; *JTCVS Open*, 2024
+
+**In silico assessment of aortic hemodynamic sensitivity to inlet boundary conditions: Comparative analysis of 4D MRI, patient-specific, and modified generic waveforms**
+Tajeddini F, Huang YX, Romero DA, Chung JCY, Amon CH &nbsp;·&nbsp; *Computer Methods and Programs in Biomedicine*, 2025
+
+**High Precision Invasive FFR, Low-Cost Invasive iFR, or Non-Invasive CFR? Optimum Assessment of Coronary Artery Stenosis Based on Patient-Specific Computational Models**
+Tajeddini F, Nikmaneshi MR, Firoozabadi B, Pakravan HA, et al. &nbsp;·&nbsp; *International Journal for Numerical Methods in Biomedical Engineering*, 2020
+
+**Patient-specific fluid-structure interaction simulation of the LAD-ITA bypass graft for moderate and severe stenosis**
+Tajeddini F, Firoozabadi B, Pakravan HA, Tafti SHA &nbsp;·&nbsp; *Biocybernetics and Biomedical Engineering*, 2022
+
+**A validated reduced-order dynamic model of nitric oxide regulation in coronary arteries**
+Moshfegh H, Tajeddini F, Pakravan HA, et al. &nbsp;·&nbsp; *Computers in Biology and Medicine*, 2021
+
+**Thermal analysis and optimization of a system for water harvesting from humid air using thermoelectric coolers**
+Eslami M, Tajeddini F, Etaati N &nbsp;·&nbsp; *Energy Conversion and Management*, 2018
+
+---
+
+## Technical Stack
+
+| Category | Tools |
+|---|---|
+| **Languages** | Python, MATLAB, SQL, C (basic) |
+| **Deep Learning** | PyTorch, TensorFlow, CNNs, U-Net, MedSAM, ResNet |
+| **Machine Learning** | scikit-learn, SVM, Random Forests, Gradient Boosting, PLS-DA |
+| **Scientific Computing** | NumPy, SciPy, Pandas, Matplotlib, Plotly |
+| **Medical Imaging** | MRI, 4D MRI, CT, DICOM/NIfTI, ITK, SimpleITK, 3D Slicer |
+| **Simulation** | ANSYS Fluent, COMSOL, SolidWorks |
+| **Tools** | Git, Jupyter, Linux |
 
 ---
 
 ## Research Highlights
 
-- 7 peer-reviewed journal publications in computational modeling, biomedical engineering, and cardiovascular simulation
+- Cardiovascular dissection risk stratification across 305 patients, classification AUC 0.90
 - Co-inventor on a patent application for AI-driven cardiovascular diagnosis
-- Conference presenter at the American Association for Thoracic Surgery Annual Meeting
-- ML pipeline for cardiovascular risk stratification across 305 patients, including dissection classification with AUC 0.90
+- Presenter at the American Association for Thoracic Surgery (AATS) Annual Meeting
+- Research experience at University Health Network (UHN) and the Vector Institute for Artificial Intelligence
 
 ---
 
-## Connect with Me
+## Contact
 
-- LinkedIn: [linkedin.com/in/farshad-tajeddini](https://www.linkedin.com/in/farshad-tajeddini-1766b6148/)
-- Google Scholar: [Farshad Tajeddini](https://scholar.google.com/citations?user=jwl81sUAAAAJ)
-- Email: [farshad.tajeddini@gmail.com](mailto:farshad.tajeddini@gmail.com)
+Open to research collaborations and R&D roles in medical imaging, computational modeling, and clinical AI.
+
+[LinkedIn](https://linkedin.com/in/farshad-tajeddini-1766b6148) &nbsp;·&nbsp; [Google Scholar](https://scholar.google.com/citations?user=jwl81sUAAAAJ&hl=en)
